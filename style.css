@@ -1,7 +1,7 @@
 /* ----- Body and General ----- */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f4f8;   /* soft, light background */
+    background-color: #f0f4f8;   /* soft light background */
     color: #111827;               /* dark text for readability */
     margin: 0;
     padding: 20px;
@@ -35,29 +35,30 @@ p {
     margin: 10px auto;
     font-size: 1.1em;
     color: #374151;
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
 }
 
 /* ----- Lists ----- */
 ul {
     max-width: 800px;
     margin: 10px auto 20px auto;
-    padding-left: 20px;
+    padding-left: 40px;       /* bullets visible */
+    color: #374151;           /* dark text */
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
 }
 
 li {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
 }
 
 /* ----- YouTube / Links Highlight ----- */
 strong {
     color: #1d4ed8;              /* strong blue for emphasis */
-}
-
-/* ----- Add a subtle box around content ----- */
-body > h1, body > h2, body > h3, body > p, body > ul {
-    background-color: #ffffff;   /* white blocks for clarity */
-    padding: 15px 20px;
-    border-radius: 10px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
 }
