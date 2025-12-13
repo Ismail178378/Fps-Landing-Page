@@ -76,3 +76,11 @@ li {
 .youtube-btn:hover {
     background-color: #cc0000;      /* darker on hover */
 }
+
+/* ----- Timer ----- */
+.timer {
+    font-size: 2em;
+    color: #1e40af;
+    font-weight: bold;
+    margin-top: 20px;
+}
