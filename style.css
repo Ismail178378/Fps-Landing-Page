@@ -10,21 +10,21 @@ body {
 
 /* ----- Headings ----- */
 h1 {
-    color: #1e40af;              /* deep blue for main heading */
+    color: #1e40af;              
     text-align: center;
     font-size: 3em;
     margin-bottom: 10px;
 }
 
 h2 {
-    color: #2563eb;              /* blue for sub-heading */
+    color: #2563eb;              
     text-align: center;
     font-size: 2em;
     margin-bottom: 20px;
 }
 
 h3 {
-    color: #1f2937;              /* dark gray for smaller headings */
+    color: #1f2937;              
     margin-top: 30px;
     font-size: 1.5em;
 }
@@ -45,8 +45,8 @@ p {
 ul {
     max-width: 800px;
     margin: 10px auto 20px auto;
-    padding-left: 40px;       /* bullets visible */
-    color: #374151;           /* dark text */
+    padding-left: 40px;      
+    color: #374151;          
     background-color: #ffffff;
     padding: 15px 20px;
     border-radius: 10px;
@@ -58,7 +58,21 @@ li {
     font-size: 1.1em;
 }
 
-/* ----- YouTube / Links Highlight ----- */
-strong {
-    color: #1d4ed8;              /* strong blue for emphasis */
+/* ----- YouTube Button ----- */
+.youtube-btn {
+    display: inline-block;
+    background-color: #FF0000;      /* YouTube red */
+    color: #ffffff;
+    padding: 12px 25px;
+    margin: 10px auto 30px auto;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.youtube-btn:hover {
+    background-color: #cc0000;      /* darker on hover */
 }
